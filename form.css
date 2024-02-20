@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    background-image: url("img/waterform.avif ");
+    background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+
+}
+.center {
+    margin: 0 auto;
+    width: 500px;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    position: absolute;
+    left: 5%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+img {
+    width: 100px;
+}
+table input {
+    width: 50px;
+}
+#grandTotal {
+    font-weight: bold;
+}
+form {
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
+    right: 5%;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.btn1 { 
+    position: absolute;
+    bottom: 90%;
+    left: 5%;
+    padding: 15px 40px;
+    border: 2px;
+    border-radius: 40px;
+    color: #090000;
+    font-weight: 500;
+    background-color: #ff0000;
+}
+.btn1:hover{
+    color: #fff;
+    background: #1e3932;
+}.btn { 
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    padding: 15px 40px;
+    border: 2px;
+    border-radius: 40px;
+    color: #090000;
+    font-weight: 500;
+    background-color: #51f851;
+}
+.btn:hover{
+    color: #fff;
+    background: #1e3932;
+}
