@@ -15,7 +15,8 @@
     --second-color:#1e3932;
     --primary-color:#0176C3;
     --first-color:#C7EEFF;
-    --secondary-color:#63c5da
+    --secondary-color:#63c5da;
+    overflow-x: hidden;
 }
 
 section{
