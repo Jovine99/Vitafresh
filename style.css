@@ -18,15 +18,135 @@
     --secondary-color:#63c5da;
     overflow-x: hidden;
 }
+#services{
+    background: url('img/wp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+#services .heading{
+   
+}
+#services .heading span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-top: 300px;
+}
+.services-section{
+    width: 100%;
+}
+
+
+.s-container {
+   
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+  }
+  
+  #services h1 {
+    font-weight: 400;
+    /* margin: 70px auto; */
+    text-decoration: underline blue 5px;
+    /* width: 40%; */
+    text-align:center;
+    
+  }
+  #services h3{
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  #services h1:hover {
+    color: var(--secondary-color);
+    transition: all .5;
+    text-decoration: underline var(--primary-color) 5px;
+   
+   
+  }
+  
+  .our-services {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    /* flex-wrap: wrap; */
+  
+  }
+  
+  .service {
+    padding: 30px;
+    flex-grow: 0;
+    width: 100%;
+    box-shadow: 0 0.5px 0.5px 0.5px var(--first-color);
+    
+  }
+  
+  .service:hover,
+  .service:focus {
+    transition: all 0.7s;
+    background-color: #303eff;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .our-services .service p {
+    margin-top: 8px;
+   
+  }
+  .our-services .service h2{
+    text-align: center;
+    padding-top:20px
+  }
+  .icon-container{
+    /* text-align: center; */
+    padding:30px
+  }
+  
+  .icon-container i {
+    font-size: 35px;
+    color:var(--secondary-color);
+   
+  }
 
 section{
     padding: 50px 10%;
     
 }
+#about-sec{
+    background: url('img/prop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+#services .heading{
+   
+}
+#about-sec .heading span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-top: 200px;
+}
 .about-us{
     /* height: 100vh; */
-    width: 100%;
-    padding: 100px 0;
+    /* width: 100%; */
+    padding: 40px 0;
    
   }
   .pic{
@@ -39,7 +159,7 @@ section{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .text{
     width: 540px;
@@ -48,6 +168,7 @@ section{
     font-size:24px;
     font-weight: 600;
     margin-bottom: 10px;
+
   }
   .text h5{
     font-size: 22px;
@@ -605,22 +726,24 @@ input[name="testimonial"]:nth-child(4):checked~.testimonials-arrows .arrow-right
 /* products-page */
 
 #products{
-    background: url('img/water.jpg');
+    background: url('img/pro.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 80vh;
 }
 #products .heading{
+   
+}
+#products .heading span{
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 30px;
+    font-weight:bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-}
-#products .heading span{
-    color: var(--main-color);
-    text-align: center;
-    font-size: 24px;
+    margin-top: 200px;
 }
 .product-container{
     display: flex;
@@ -660,6 +783,26 @@ input[name="testimonial"]:nth-child(4):checked~.testimonials-arrows .arrow-right
     color: rgb(0 0 0 / 70%)  
 }
 
+#contact-us{
+    background: url('img/contactus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:90vh;
+}
+#services .heading{
+   
+}
+#contact-us .heading span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-top: 220px;
+}
 .main-section {
     position: relative;
     z-index: 3;
@@ -713,6 +856,7 @@ input[name="testimonial"]:nth-child(4):checked~.testimonials-arrows .arrow-right
 }
 .contact-info-content {
     margin-left: 20px;
+
 }
 .contact-info-content h4 {
     color: var(--secondary-color);
@@ -720,8 +864,8 @@ input[name="testimonial"]:nth-child(4):checked~.testimonials-arrows .arrow-right
     /* margin-bottom: 5px; */
 }
 .contact-info-content p {
-    color: #FFF;
-    font-size: 1.2em;
+    color:var(--second-color);
+    font-size: 16px;
 }
 .contact-form-section {
     background-color: #fff;
@@ -997,9 +1141,6 @@ padding-bottom: 20px;
         transition: 0.2s;
         text-align: center; 
     }
-    
-   
-}
     .navbar.active{
         top: 100%;  
     }
@@ -1017,8 +1158,30 @@ padding-bottom: 20px;
     .home-text h2{
         font-size: 1.2rem;
     }
+    #services{
+        background-size: auto;
+        /* height: auto; */
+    }
+    .our-services{
+        display:flex;
+        flex-direction: column;
+        height:auto;
+        width:100%
+    }
+    
+   
+}
+   
 
 @media (max-width: 768px){
+    .text{
+        width:100%;
+        padding: 20px;
+      }
+      .text h2{
+       text-align: center;
+    
+      }
     .p-card{
         padding: 30px 20px;
         width:100%;
@@ -1129,56 +1292,3 @@ padding-bottom: 20px;
     
     } 
 
-/* 
-@media (max-width: 640px){
-    .footer{
-        margin: 0 auto;
-        max-width: 580px;
-        padding: 0;
-    }
-    .footer .top .socials{
-        position: static;
-    }
-    .footer .bottom{
-        justify-content: flex-start;
-        
-    }
-    .socials-column
-    :is(h2, p){
-        display: block;
-    }
-    body{
-    overflow-x: hidden;
-}
-}
-@media (max-width: 400px){
-    .links-column{
-        text-align: left;
-    }
-    .footer .top .links{
-        grid-template-columns: repeat(2, 1fr);
-        margin-right: 50px;
-    }
-    .footer .top .socials{
-        left: 0;
-        translate: 0;
-    }
-    .footer .bottom{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction:row;
-        gap:20px;
-        text-align: left;
-    }
-
-}
-
-
-@media (max-width: 360px){
-    .links{
-        display: flex;
-        flex-direction: column;
-        
-    }
-}    */

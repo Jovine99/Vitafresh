@@ -15,7 +15,7 @@
 		die("Connection Failed : ". $conn->connect_error);
 	} else {
 		$stmt = $conn->prepare("insert into registration(firstName, lastName, email, address, number, quantity1, quantity2,quantity3) values(?, ?, ?, ?, ?, ?, ?, ?)");
-		$stmt->bind_param("ssssiiii", $firstName, $lastName, $email, $address, $number,$quantity1, $quantity2, $quantity3);
+		$stmt->bind_param("s", $firstName, $lastName, $email, $address, $number,$quantity1, $quantity2, $quantity3);
 		$execval = $stmt->execute();
 		echo $execval;
 		$stmt->close();
