@@ -697,10 +697,10 @@ input[name="testimonial"]:nth-child(4):checked~.testimonials-arrows .arrow-right
     z-index: 1;
 }
 .testimonial:nth-child(1) .photo-author {
-    background-image: url( 'img/uip.png' );
+    background-image: url( 'img/st.png' );
 }
 .testimonial:nth-child(2) .photo-author {
-    background-image: url( 'img/st.jpg' );
+    background-image: url( 'img/uip.jpg' );
 }
 .testimonial:nth-child(3) .photo-author {
     background-image: url( 'img/tb.jpg' );
